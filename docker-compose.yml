@@ -21,7 +21,7 @@ services:
       - ORANGEHRM_DATABASE_NAME=bitnami_orangehrm
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
-      - ORANGEHRM_USERNAME=admin
+      - ORANGEHRM_USERNAME=Admin
       - ORANGEHRM_PASSWORD=CAd6UCg5DBj26sm     
     volumes:
       - 'orangehrm_data:/bitnami/orangehrm'
