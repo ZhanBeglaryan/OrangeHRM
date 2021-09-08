@@ -22,8 +22,7 @@ services:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
       - ORANGEHRM_USERNAME=Admin
-      - ORANGEHRM_PASSWORD=CAd6UCg5DBj26sm
-      - ORANGEHRM_ENFORCE_PASSWORD_STRENGTH=no
+      - ORANGEHRM_PASSWORD=m4tKBY3zK#B3z4LY
     volumes:
       - 'orangehrm_data:/bitnami/orangehrm'
     depends_on:
